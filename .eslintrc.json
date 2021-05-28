@@ -21,6 +21,7 @@
         "react",
         "@typescript-eslint",
         "react-hooks",
+        "simple-import-sort",
         "prettier"
     ],
     "rules": {
@@ -46,8 +47,11 @@
           "ts": "never",
           "tsx": "never"
         }
-     ],
-     "prettier/prettier": "error"
+      ],
+      "prettier/prettier": "error",
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
+      "import/prefer-default-export": "off"
     },
     "settings": {
       "import/resolver": {
