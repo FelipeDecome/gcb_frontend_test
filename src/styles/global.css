@@ -1,0 +1,79 @@
+:root {
+  font-size: 75%;
+
+  --ff-titles: 'Montserrat', sans-serif;
+  --fw-titles: 800;
+
+  --ff-texts: 'Mulish', sans-serif;
+  --fw-texts: 400;
+
+  --boxes-radius: 7px;
+
+  --cll-primary: #BADC58;
+
+  --cll-title: #1D164D;
+  --cll-text: #BCBCBC;
+
+  --cll-title-in-darker-section: #2D3561;
+  --cll-text-in-darker-section: #9E9BAF;
+
+  --cll-in-primary: #ffffff;
+  --cll-background: #ffffff;
+  --cll-background-darker: #FAFAFC
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 75%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: var(--ff-titles);
+  font-weight: var(--fw-titles);
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 4.375rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.6875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+}
+
+a,
+p,
+span,
+button,
+input {
+  font-family: var(--ff-texts);
+  font-weight: var(--fw-texts);
+  color: var(--cll-text);
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 87.5%;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    font-size: 100%;
+  }
+}
