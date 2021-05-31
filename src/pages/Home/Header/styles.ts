@@ -147,7 +147,6 @@ export const Container = styled.header<IContainerProps>`
         css`
           background: var(--cll-in-primary);
           color: var(--cll-primary);
-          border-color: var(--cll-in-primary);
         `};
     }
 
